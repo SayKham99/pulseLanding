@@ -2,7 +2,14 @@
     .promo {
         min-width: 420px;
         .header {
-            display: none;
+            display: block;
+            margin: 0 auto;
+            &__official{
+                display: none;
+            }
+            &__contacts{
+                display: none;
+            }
         }
         &__header {
             text-align: center;
