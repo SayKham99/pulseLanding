@@ -21,5 +21,14 @@
     "defaults",
     "not IE 11",
     "maintained node versions"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SayKham99/pulseLanding.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SayKham99/pulseLanding/issues"
+  },
+  "homepage": "https://github.com/SayKham99/pulseLanding#readme",
+  "description": ""
 }
