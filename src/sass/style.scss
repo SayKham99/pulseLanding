@@ -1,15 +1,14 @@
-$clr_red: #c70101;
-
 @import "bases/variables";
-
-*{
+@import "bases/media";
+* {
     box-sizing: border-box;
-    font-family:'Museo Sans Cyrl', sans-serif;
+    font-family: "Museo Sans Cyrl", sans-serif;
 }
-.container{
+.container {
     max-width: 950px;
     margin: 0 auto;
 }
 @import "blocks/promo";
 @import "blocks/headers";
-@import "blocks/buttons"
+@import "blocks/buttons";
+@import "blocks/adv";

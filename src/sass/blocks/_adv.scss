@@ -1,0 +1,35 @@
+.adv {
+    background: #f6f6f6;
+    min-height: 470px;
+    padding: 71px 0 64px 0;
+    &__header {
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 60px;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+    &__items {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 4fr 4fr 4fr;
+        gap: 120px;
+    }
+    &__item {
+        text-align: center;
+        .item__header {
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 29px;
+            text-align: center;
+        }
+        .itam__descr {
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 24px;
+            color: #0d0d0d;
+        }
+    }
+}
