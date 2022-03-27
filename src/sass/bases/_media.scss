@@ -4,10 +4,10 @@
         .header {
             display: block;
             margin: 0 auto;
-            &__official{
+            &__official {
                 display: none;
             }
-            &__contacts{
+            &__contacts {
                 display: none;
             }
         }
@@ -46,6 +46,43 @@
         }
         &__header {
             padding: 0 10px 0 10px;
+        }
+    }
+}
+@media (max-width: 769px) {
+    .promo{
+        .header{
+            justify-content: center;
+            &__official{
+                display: none;
+            }
+        }
+        &__header,
+        &__subheader,
+        &__icons{
+            display: block;
+            margin: 0 auto;
+            text-align: center;
+        }
+        button{
+            display: block;
+            margin: 0 auto;
+            margin-top: 30px;
+            text-align: center;
+        }
+        &__link{
+            display: block;
+            margin: 0 auto;
+            margin-top: 0;
+            text-align: center;
+        }
+    }
+    .adv{
+        .adv__items{
+            width: 300px;
+            grid-template-columns: 6fr;
+            margin: 0 auto;
+            gap: 30px;
         }
     }
 }
