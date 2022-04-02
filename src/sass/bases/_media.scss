@@ -98,6 +98,20 @@
             margin: 0 auto;
         }
     }
+    .comment{
+        .title_comment{
+            font-size: 20px;
+        }
+        text-align: center;
+        min-width: 420px;
+        &__item{
+            flex-direction: column;
+        }
+        &__descr{
+            max-width: 360px;
+        }
+
+    }
 }
 @media (max-width: 769px) {
     .promo {
@@ -153,6 +167,11 @@
         &__content{
             padding: 0 50px;
 
+        }
+    }
+    .comment{
+        &__descr{
+            width: 520px;
         }
     }
 }
